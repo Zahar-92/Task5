@@ -19,10 +19,4 @@ public final class RandomStringDouble {
            }
             return String.valueOf (str);
     }
-
-
-
-
-
-
 }
