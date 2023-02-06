@@ -17,6 +17,8 @@ RandomStringDouble variables = new RandomStringDouble();
             }
             System.out.print("\n\nСравнение диагоналей показывет, что они не равны: ");
             System.out.println(massive.compare(massive.doOneDiagonal(), massive.doTwoDiagonal()));
+            System.out.println("выводим задание п 3.1 и п. 3.2:\n");
+            massive.toSBDouble();
         }
 
 }
