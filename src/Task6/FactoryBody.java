@@ -9,7 +9,7 @@ public class FactoryBody implements Make{
     public String makeParts() {
         bodies = Body.values();
         Random random = new Random();
-        String name = String.valueOf((bodies[random.nextInt(bodies.length)]));
+        String name = String.valueOf((bodies[random.nextInt(bodies.length)].name()));
         return name;
 
     }

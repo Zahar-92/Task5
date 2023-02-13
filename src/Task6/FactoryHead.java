@@ -9,7 +9,7 @@ public class FactoryHead implements Make{
     public String makeParts() {
         heads = Head.values();
         Random random = new Random();
-        String name = String.valueOf((heads[random.nextInt(heads.length)]));
+        String name = String.valueOf((heads[random.nextInt(heads.length)].name()));
         return name;
     }
 }
